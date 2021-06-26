@@ -3,13 +3,14 @@ The data set in this exercise is from the blog on Flask Tutorial at [Build the f
 To follow detailed explanations on the steps, please refer to the blog [A Hands-on Tutorial to Continuous Deployment Pipelines for ML-based Web Apps on Google Cloud](https://towardsdatascience.com/a-hands-on-tutorial-to-continuous-deployment-pipelines-for-ml-based-web-apps-on-google-cloud-ba3957c87bc1).
 
 ## ML Model Flask-Deployment
-This project demonstrates how a Flask ML app can be deployed on Google Cloud Platform using Docker container and YAML files that are useful to build continuous deployment (CD) pipelines. 
+This project demonstrates how a Flask ML app can be deployed on Google Cloud Platform using Docker container and YAML files that are useful to build continuous deployment (CD) pipelines.
 
 ### Prerequisites (requirements.txt)
  - Scikit Learn
- - Pandas 
+ - Pandas
  - Numpy
- - Flask 
+ - Flask
+ - 
 
 ### Project Structure
 All the application files are contained in the folder 'app_files'. The goal is to build an ML model using Decision Tree Classifier
@@ -43,6 +44,3 @@ You now have a deployed app
 
 5. Delete the triggers on the page https://console.cloud.google.com/cloud-build/triggers
 6. Delete the app at:  https://console.cloud.google.com/run
-
-
-
